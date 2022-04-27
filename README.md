@@ -29,7 +29,7 @@ SMOTE Model, like RandomOverSampler increases the size of the minority class by 
   * The balanced accuracy score improved slightly to 65.1%.
   * Like RandomOverSampler, the "High Risk" precision rate again was only 1% with the recall degraded to 61% giving this model an F1 score of 2%.
   * "Low Risk" had a precision rate of 100% and an improved recall at 69%.  
-  * 
+  
   ![image](https://user-images.githubusercontent.com/96354695/165444807-e0c61477-934b-4bf4-9cfd-2ec8ff76f22d.png)
 
 ### Undersampling
@@ -55,8 +55,6 @@ SMOTEENN Model combines aspects of both oversampling and undersampling. The mode
   ![image](https://user-images.githubusercontent.com/96354695/165445099-9f4eafb8-fae9-43fa-9b81-a57043c2099f.png)
 
 ## Ensemble Classifiers to Predict Credit Risk
-
-Compare two new Machine Learning models that reduce bias to predict credit risk. The models classified 51,366 as High Risk and 246 as Low Risk.
 
 BalancedRandomForestClassifier Model, two trees of the same size and equal size to the minority class are constructed to represent one for the majority class and one for the minority class. 
 
