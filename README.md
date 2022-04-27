@@ -35,7 +35,7 @@ RandomOverSampler Model randomly selects from the minority class and adds it to 
   
   ![image](https://user-images.githubusercontent.com/96354695/165444726-e7a3e7ab-ffd7-414a-928f-c787c1fbaddb.png)
 
-SMOTE (Synthetic Minority Oversampling Technique) Model, like RandomOverSampler increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection. 
+SMOTE Model, like RandomOverSampler increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection. 
 
   * The balanced accuracy score improved slightly to 65.1%.
 
