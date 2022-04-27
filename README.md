@@ -65,7 +65,7 @@ BalancedRandomForestClassifier Model, two trees of the same size and equal size 
   * "Low Risk" still had a precision rate of 100% with the recall at 87%.  
   * The top feature by importance was "total_rec_prncp" at 7.9% of the total.
 
-  ![image](https://user-images.githubusercontent.com/96354695/165445209-332684a5-28ee-4e62-a22d-af342f81f0b7.png)
+  ![image](https://user-images.githubusercontent.com/96354695/165446929-fcd5c41f-7d4e-4176-aed6-577fb6d9682d.png)
   
 EasyEnsembleClassifier Model, a set of classifiers where individual decisions are combined to classify new examples.
 
